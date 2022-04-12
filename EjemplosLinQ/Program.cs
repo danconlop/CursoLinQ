@@ -206,7 +206,7 @@ namespace EjemplosLinQ
             //Student primEstudianteFiltradoSinResultadosReducido = studentQueryLambdaX.FirstOrDefault(c => c.ID > 1000);
 
             Student single = studentQueryLambdaX
-                .Single(c => c.ID > 1000); //ltambien hay SingleOrDefault
+                .Single(c => c.ID > 1000); //Tambien hay SingleOrDefault
             
             foreach (var item in studentQuery7)
             {
